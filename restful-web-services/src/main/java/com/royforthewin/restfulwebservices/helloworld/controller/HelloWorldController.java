@@ -1,7 +1,6 @@
-package com.royforthewin.restfulwebservices.controller;
+package com.royforthewin.restfulwebservices.helloworld.controller;
 
-import com.royforthewin.restfulwebservices.model.HelloWorldBean;
-import org.springframework.http.MediaType;
+import com.royforthewin.restfulwebservices.helloworld.model.HelloWorldBean;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

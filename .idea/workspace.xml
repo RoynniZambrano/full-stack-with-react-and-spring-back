@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa0f1f08-a2c5-4c66-a50d-53813a424d24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restful-web-services/src/main/java/com/royforthewin/restfulwebservices/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-services/src/main/java/com/royforthewin/restfulwebservices/controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful-web-services/src/main/java/com/royforthewin/restfulwebservices/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-services/src/main/java/com/royforthewin/restfulwebservices/helloworld/controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful-web-services/src/main/java/com/royforthewin/restfulwebservices/model/HelloWorldBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-services/src/main/java/com/royforthewin/restfulwebservices/helloworld/model/HelloWorldBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.royforthewin.restfulwebservices.todo.service" />
+      <recent name="com.royforthewin.restfulwebservices.todo.model.Todo" />
       <recent name="com.royforthewin.restfulwebservices.model" />
     </key>
   </component>
@@ -81,29 +83,33 @@
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
     <state x="2472" y="303" key="#Project_Structure/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588558071986" />
-    <state x="2685" y="329" key="#com.intellij.ide.util.MemberChooser" timestamp="1588559262653">
+    <state x="2685" y="329" key="#com.intellij.ide.util.MemberChooser" timestamp="1588816642654">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state x="2685" y="329" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588559262653" />
+    <state x="2685" y="329" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588816642654" />
+    <state x="2386" y="570" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588816286276">
+      <screen x="1920" y="125" width="1920" height="1040" />
+    </state>
+    <state x="2386" y="570" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588816286276" />
     <state x="2660" y="354" key="FileChooserDialogImpl" timestamp="1588558088004">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
     <state x="2660" y="354" key="FileChooserDialogImpl/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588558088004" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588769101674">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588817800842">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588769101674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588769101674">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588817800842" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588817800841">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588769101674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588769101674">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588817800841" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588817800841">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588769101674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588769101674">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588817800841" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588817800841">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588769101674" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588817800841" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.royforthewin.restfulwebservices.model;
+package com.royforthewin.restfulwebservices.helloworld.model;
 
 public class HelloWorldBean {
     private  String message;
